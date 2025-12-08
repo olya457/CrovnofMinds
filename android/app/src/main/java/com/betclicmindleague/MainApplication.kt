@@ -1,4 +1,4 @@
-package com.crovnof.minds
+package com.betclicmindleague
 
 import android.app.Application
 import com.facebook.react.PackageList

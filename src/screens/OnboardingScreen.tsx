@@ -24,37 +24,38 @@ type Slide = { key: string; title: string; text: string; button: string; hero: n
 const SLIDES: Slide[] = [
   {
     key: 'path',
-    title: 'The Path of Wisdom',
+    title: 'The Path of Strength',
     text:
-      'Every kingdom needs a ruler of reason.\n' +
-      'Begin your journey from a humble Page and climb\n' +
-      'the ranks through knowledge.',
+      'Every athlete starts with a single step.\n' +
+      'Follow the road of discipline and push \n' +
+      'your limits to reach the top.',
     button: 'CONTINUE',
     hero: require('../assets/ob_path.png'),
   },
   {
     key: 'chess',
-    title: 'Challenge the Minds',
+    title: 'Challenge the Players',
     text:
-      'Each quiz is a duel of intellect.\n' +
-      'Answer wisely, earn your honor, and rise through\n' +
-      'the noble ranks.',
+      'Each match is a test of speed and focus.\n' +
+      'React fast, think sharp, and outscore your \n' +
+      'opponent.',
     button: 'NEXT',
     hero: require('../assets/ob_chess.png'),
   },
   {
     key: 'academy',
-    title: 'Academy of Wisdom',
-    text: 'Visit the Academy to sharpen your mind.',
+    title: 'Academy of Skill',
+    text: 'Hone your reaction, strategy, and precision.\n' +
+    'Train here to sharpen both mind and technique.',
     button: 'NEXT',
     hero: require('../assets/ob_academy.png'),
   },
   {
     key: 'throne',
-    title: 'Claim the Crown',
+    title: 'Claim the Trophy',
     text:
-      'Defeat the Monarch of Minds.\n' +
-      'Take the throne and prove that true power lies in wisdom.',
+      'Defeat the final challenger..\n' +
+      'Prove your mastery and rise as the champion.',
     button: 'BEGIN DUEL',
     hero: require('../assets/ob_throne.png'),
   },
@@ -62,7 +63,7 @@ const SLIDES: Slide[] = [
 
 const GOLD = '#e6c980';
 const GOLD_BORDER = 'rgba(230, 201, 128, 0.55)';
-const PANEL_BG = 'rgba(12, 10, 7, 0.92)';
+const PANEL_BG = 'rgba(12, 10, 7, 1)';
 
 const OnboardingScreen: React.FC<Props> = ({ navigation }) => {
   const [index, setIndex] = useState(0);
@@ -87,7 +88,7 @@ const OnboardingScreen: React.FC<Props> = ({ navigation }) => {
 
   return (
     <SafeAreaView style={styles.safe}>
-      <ImageBackground source={require('../assets/background.png')} style={styles.bg} resizeMode="cover">
+      <ImageBackground source={require('../assets/background1.png')} style={styles.bg} resizeMode="cover">
         <FlatList
           ref={listRef}
           data={SLIDES}

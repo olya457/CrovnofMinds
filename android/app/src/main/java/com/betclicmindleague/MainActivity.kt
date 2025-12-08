@@ -1,4 +1,4 @@
-package com.crovnof.minds
+package com.betclicmindleague
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

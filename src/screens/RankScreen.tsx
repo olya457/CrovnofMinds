@@ -39,8 +39,8 @@ const CARD_TO_BUTTON_GAP  = 30;
 const RANK_KEY = 'rank_level';
 
 const RANKS = [
-  { title: 'Page',    desc: 'A humble servant of knowledge. Learns by mistakes, dreams of wisdom.', img: require('../assets/page.png') },
-  { title: 'Knight',  desc: 'Brave in debate, not yet immune to doubt. Begins to wield reason as a weapon.', img: require('../assets/knight.png') },
+  { title: 'Rookie',    desc: 'A rising talent taking the first steps in sport. Learns from practice, gains confidence, and builds momentum.', img: require('../assets/page.png') },
+  { title: 'Knight',  desc: 'A fearless competitor who rises under pressure.Sharp reflexes, bold decisions — ready to strike at the perfect moment.', img: require('../assets/knight.png') },
   { title: 'Baron',   desc: 'A thinker with ambition. Starts connecting facts into patterns of understanding.', img: require('../assets/baron.png') },
   { title: 'Count',   desc: 'Sees beyond simple truth. Strategist of logic and curiosity.', img: require('../assets/count.png') },
   { title: 'Duke',    desc: 'Master of questions, philosopher at heart. Eyes fixed upon the Crown.', img: require('../assets/duke.png') },
