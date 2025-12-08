@@ -1,4 +1,4 @@
-package com.crovnofminds
+package com.crovnof.minds
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

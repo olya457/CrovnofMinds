@@ -1,4 +1,4 @@
-package com.crovnofminds
+package com.crovnof.minds
 
 import android.app.Application
 import com.facebook.react.PackageList
